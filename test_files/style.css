@@ -9,7 +9,7 @@ h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0; padding:0;}
 p {margin: 0;}
 html, body{
-	font-family: 'Courier';
+	font-family: 'Futura';
 	font-size: 100%;
 	background: #ffffff;
 }
@@ -40,11 +40,12 @@ a:focus {
 .header h1{
 	 background:#336699;
 	color:#fff;
-	padding:35px 20px 10px 20px;
-	font-weight:600;
+	padding:15px 20px 10px 20px;
+	font-weight:400;
 	display:inline-block;
-	font-size: 4em;
-	  border-bottom: 9px solid #000;
+	font-size: 2em;
+	 border-bottom: 9px solid #000;
+	 letter-spacing: 0.1em;
 }
 .header-right{
 	float:right;
@@ -64,10 +65,10 @@ a:focus {
 }
 .header-right h2{
 	color:#333;
-	font-size:3em;
+	font-size:1.5em;
 	margin-top:50px;
 	display: inline-block;
-	text-align:right;
+	text-align:left;
 }
 .header-right span{
 	color: #000;
@@ -89,8 +90,13 @@ a:focus {
 	font-weight:600;
 	  font-style: italic;
 }
+h3 {
+	color: #333;
+	font-size: 1.6em;
+	font-style: italic;
+}
 .work,.education {
-  border-left: 11px solid #336699;
+  border-left: 9px solid #336699;
 }
 .work {
 	margin-bottom:2.5em;
@@ -119,13 +125,13 @@ a:focus {
 }
 .posts p,.college h5{
 	line-height:1.5em;
-	color:#999;
-	font-weight: 300;
+	color:#2F4F4F;
+	font-weight: 100;
 }
 .college h5{
-	color:#999;
+	color:#2F4F4F;
 	font-size:1em;
-	font-weight: 400;
+	font-weight: 100;
 }
 
 .sweet {
@@ -168,7 +174,7 @@ a:focus {
 	margin-top:2em;
 }
 .lists{
-	border-left: 11px solid #336699;
+	border-left: 9px solid #336699;
 	padding-left:15px;
 }
 .date {
@@ -220,9 +226,9 @@ a:focus {
 }
 .info p{
   line-height: 1.5em;
-  color: #999;
-  font-weight: 300;
-  border-left: 11px solid #336699;
+  color: #2F4F4F;
+  font-weight: 100;
+  border-left: 9px solid #336699;
   padding-left:15px;
 }
 .left_grid{
@@ -234,7 +240,7 @@ a:focus {
 	width:50%;
 }
 ul.list2{
-	 border-left: 11px solid #336699;
+	 border-left: 9px solid #336699;
   padding-left:30px;
   margin-top:1.5em;
 }
@@ -265,13 +271,7 @@ ul.media_sec li img{
   margin-top: 2em;
   text-align:center;
 }
-.copywrite p {
-  color: #999;
-  font-size: 0.9em;
-}
-.copywrite p a {
-  color: #999;
-}
+
 .copywrite p a:hover{
   color: #336699;
 }
@@ -347,7 +347,7 @@ ul.list2 li {
   font-size: 0.8em;
 }
 .lists2 {
-  border-left: 11px solid #336699;
+  border-left: 9px solid #336699;
   padding-left: 15px;
 }
 .skill-list:nth-child(1){
@@ -375,7 +375,7 @@ ul.list2 li {
   width: 43%;
 }
 .header h1 {
-  padding: 51px 18px 11px 18px;
+  padding: 51px 18px 9px 18px;
   font-size: 2em;
   border-bottom: 5px solid #000;
 }
@@ -385,6 +385,8 @@ ul.list2 li {
 }
 .content h3 {
   font-size: 1.4em;
+	font-style: italic;
+
 }
 .posts, .college {
   margin-right: 0em;
@@ -427,7 +429,7 @@ ul.list2 li {
   width: 100%;
 }
 ul.media_sec{
-	  border-left: 11px solid #336699;
+	  border-left: 9px solid #336699;
   padding-left: 15px;
 }
 }
@@ -456,7 +458,7 @@ ul.media_sec{
   width: 31%;
 }
 .header h1 {
-  padding: 43px 18px 11px 18px;
+  padding: 43px 18px 9px 18px;
   font-size: 1.8em;
   border-bottom: 4px solid #000;
 }
@@ -509,7 +511,7 @@ ul.media_sec li:nth-child(3){
 }
 @media (max-width: 320px){
 .header h1 {
-  padding: 34px 12px 11px 11px;
+  padding: 34px 12px 9px 9px;
   font-size: 1.3em;
   border-bottom: 3px solid #000;
 }
@@ -521,6 +523,8 @@ ul.media_sec li:nth-child(3){
 }
 .content h3 {
   font-size: 1.1em;
+	font-style: italic;
+
 }
 .content {
   margin: 1.5em 0;
