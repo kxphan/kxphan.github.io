@@ -9,7 +9,7 @@ h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0; padding:0;}
 p {margin: 0;}
 html, body{
-	font-family: 'Futura';
+	font-family: 'Helvetica';
 	font-size: 100%;
 	background: #ffffff;
 }
@@ -29,7 +29,7 @@ a:focus {
 }
 /*-- header_top --*/
 .top-header{
-	background:#000;
+	background:#45454d;
 	padding:10px 0;
 	position:relative;
 }
@@ -38,21 +38,22 @@ a:focus {
 	  width: 50%;
 }
 .header h1{
-	 background:#336699;
-	color:#fff;
-	padding:15px 20px 10px 20px;
-	font-weight:400;
+	background:#fff;
+	color:#9090ab;
+	padding:25px 10px 10px 0px;
+	font-family: 'Futura';
+	font-weight:lighter;
 	display:inline-block;
-	font-size: 2em;
-	 border-bottom: 9px solid #000;
-	 letter-spacing: 0.1em;
+	font-size: 3em;
+	text-transform: uppercase;
+	 letter-spacing: 0.2em;
 }
 .header-right{
 	float:right;
 	width:33%;
 }
 .list ul{
-		background:#000;
+		background:#45454d;
 		padding:0.5em 1em;
 		text-align:center;
 }
@@ -71,14 +72,15 @@ a:focus {
 	text-align:left;
 }
 .header-right span{
-	color: #000;
+	color: #45454d;
   font-size: 1.5em;
   text-align: center;
   padding: 10px 18px;
   position: absolute;
   top: 13%;
   right: 11%;
-  font-style: italic;
+	font-family: 'Futura';
+  font-weight: 100;
 }
 /*----*/
 .content{
@@ -88,15 +90,17 @@ a:focus {
 	color:#333;
 	font-size:1.6em;
 	font-weight:600;
-	  font-style: italic;
+	font-family: 'Futura';
+
+font-weight: 100; text-transform: uppercase; letter-spacing: 0.2em;
 }
 h3 {
 	color: #333;
 	font-size: 1.6em;
-	font-style: italic;
+	font-weight: 100; text-transform: uppercase; letter-spacing: 0.2em;
 }
 .work,.education {
-  border-left: 9px solid #336699;
+  border-left: 9px solid #c8c8d6;
 }
 .work {
 	margin-bottom:2.5em;
@@ -108,10 +112,10 @@ h3 {
 	color: #fff;
   font-size: 1em;
   font-weight: 600;
-  background: #336699;
+  background: #c8c8d6;
   padding: 8px 0px;
   text-align: center;
-  border-bottom: 4px solid #000;
+  border-bottom: 4px solid #45454d;
 }
 .posts,.college{
   margin-right: 3em;
@@ -174,7 +178,7 @@ h3 {
 	margin-top:2em;
 }
 .lists{
-	border-left: 9px solid #336699;
+	border-left: 9px solid #c8c8d6;
 	padding-left:15px;
 }
 .date {
@@ -228,7 +232,7 @@ h3 {
   line-height: 1.5em;
   color: #2F4F4F;
   font-weight: 100;
-  border-left: 9px solid #336699;
+  border-left: 9px solid #c8c8d6;
   padding-left:15px;
 }
 .left_grid{
@@ -240,9 +244,9 @@ h3 {
 	width:50%;
 }
 ul.list2{
-	 border-left: 9px solid #336699;
-  padding-left:30px;
+  padding-left: 20px;
   margin-top:1.5em;
+	padding-right:30px;
 }
 ul.list2 li{
 	padding:6px 0;
@@ -273,7 +277,7 @@ ul.media_sec li img{
 }
 
 .copywrite p a:hover{
-  color: #336699;
+  color: #c8c8d6;
 }
 /*--responsive--*/
 @media (max-width: 1024px){
@@ -283,7 +287,7 @@ ul.media_sec li img{
 .header h1 {
   padding: 44px 27px 10px 27px;
   font-size: 3em;
-  border-bottom: 6px solid #000;
+  border-bottom: 6px solid #45454d;
 }
 .list ul {
   padding:0px 1em 8px 1em;
@@ -312,7 +316,7 @@ ul.list2 li {
 .header h1 {
   padding: 43px 25px 10px 25px;
   font-size: 2.3em;
-  border-bottom: 5px solid #000;
+  border-bottom: 5px solid #45454d;
 }
 .header-right h2 {
   font-size: 2em;
@@ -347,7 +351,7 @@ ul.list2 li {
   font-size: 0.8em;
 }
 .lists2 {
-  border-left: 9px solid #336699;
+  border-left: 9px solid #c8c8d6;
   padding-left: 15px;
 }
 .skill-list:nth-child(1){
@@ -377,15 +381,16 @@ ul.list2 li {
 .header h1 {
   padding: 51px 18px 9px 18px;
   font-size: 2em;
-  border-bottom: 5px solid #000;
+  border-bottom: 5px solid #45454d;
 }
 .header-right h2 {
   font-size: 1.8em;
   margin-top: 45px;
 }
 .content h3 {
+	font-family: 'Futura';
   font-size: 1.4em;
-	font-style: italic;
+	font-weight: 100; text-transform: uppercase; letter-spacing: 0.2em;
 
 }
 .posts, .college {
@@ -404,7 +409,7 @@ ul.list2 li {
 .date p {
   font-size: 0.9em;
   padding: 5px 0px;
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid #45454d;
 }
 .info {
   margin: 2em 0;
@@ -429,7 +434,7 @@ ul.list2 li {
   width: 100%;
 }
 ul.media_sec{
-	  border-left: 9px solid #336699;
+	  border-left: 9px solid #c8c8d6;
   padding-left: 15px;
 }
 }
@@ -460,7 +465,7 @@ ul.media_sec{
 .header h1 {
   padding: 43px 18px 9px 18px;
   font-size: 1.8em;
-  border-bottom: 4px solid #000;
+  border-bottom: 4px solid #45454d;
 }
 .header-right {
   width: 59%;
@@ -491,7 +496,7 @@ ul.media_sec{
   font-size:0.9em;
 }
 .work, .education,.info p,.lists,.lists2,ul.list2,ul.media_sec  {
-  border-left: 6px solid #336699;
+  border-left: 6px solid #c8c8d6;
 }
 .progressy1, .progressy2, .progressy3, .progressy4, .progressy6{
   margin: 4px 0 15px 0;
@@ -513,7 +518,7 @@ ul.media_sec li:nth-child(3){
 .header h1 {
   padding: 34px 12px 9px 9px;
   font-size: 1.3em;
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid #45454d;
 }
 .list ul {
   padding: 0px 0em 4px 0em;
@@ -522,8 +527,10 @@ ul.media_sec li:nth-child(3){
   width: 53%;
 }
 .content h3 {
+	font-family: 'Futura';
+
   font-size: 1.1em;
-	font-style: italic;
+	font-weight: 100; text-transform: uppercase; letter-spacing: 0.2em;
 
 }
 .content {
