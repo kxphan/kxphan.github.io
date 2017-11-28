@@ -56,6 +56,7 @@ a:focus {
 		background:#45454d;
 		padding:0.5em 1em;
 		text-align:center;
+		font-family: 'Futura';
 }
 .list ul li {
 	display:inline-block;
@@ -100,7 +101,7 @@ h3 {
 	font-weight: 100; text-transform: uppercase; letter-spacing: 0.2em;
 }
 .work,.education {
-  border-left: 9px solid #c8c8d6;
+  border-left: 5px solid #c8c8d6;
 }
 .work {
 	margin-bottom:2.5em;
@@ -120,12 +121,21 @@ h3 {
 .posts,.college{
   margin-right: 3em;
 }
-.posts h4,.college h4,.sweet h4{
+.posts h4,.college h4{
 	color:#333;
-	font-size:1.2em;
+	font-size:1em;
 	margin-bottom:3px;
 	margin-top: 10px;
 	font-weight:600;
+}
+
+.sweet h4{
+	color: #333;
+	font-size:0.9em;
+	margin-bottom:3px;
+	margin-top: 3em;
+	font-family: 'futura';
+	font-weight:100;
 }
 .posts p,.college h5{
 	line-height:1.5em;
@@ -140,17 +150,21 @@ h3 {
 
 .sweet {
 	padding-bottom: 10px;
-	border-width: 1px;
+	border-width: 0px;
 	background: #fff;
 }
 
 .sinfo {
-	background: #eee;
-	margin: 3px;
-	padding: 10px;
-	border-bottom: 4px solid #ccc;
-
+	background: #fafafa;
+	margin: 0px;
+	padding-top: 60px;
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-bottom:40px;
+	text-align: center;
+	font-size: 0.85em;
 }
+
 .city{
 	width:19%;
 }
@@ -178,7 +192,7 @@ h3 {
 	margin-top:2em;
 }
 .lists{
-	border-left: 9px solid #c8c8d6;
+	border-left: 5px solid #c8c8d6;
 	padding-left:15px;
 }
 .date {
@@ -232,7 +246,7 @@ h3 {
   line-height: 1.5em;
   color: #2F4F4F;
   font-weight: 100;
-  border-left: 9px solid #c8c8d6;
+  border-left: 5px solid #c8c8d6;
   padding-left:15px;
 }
 .left_grid{
@@ -303,7 +317,7 @@ ul.media_sec li img{
   font-size: 1em;
 }
 .posts p, .college h5,.info p {
-  font-size: 0.9em;
+  font-size: 0.5em;
 }
 .city p {
   font-size: 0.85em;
@@ -351,7 +365,7 @@ ul.list2 li {
   font-size: 0.8em;
 }
 .lists2 {
-  border-left: 9px solid #c8c8d6;
+  border-left: 5px solid #c8c8d6;
   padding-left: 15px;
 }
 .skill-list:nth-child(1){
@@ -434,7 +448,7 @@ ul.list2 li {
   width: 100%;
 }
 ul.media_sec{
-	  border-left: 9px solid #c8c8d6;
+	  border-left: 5px solid #c8c8d6;
   padding-left: 15px;
 }
 }
@@ -496,7 +510,7 @@ ul.media_sec{
   font-size:0.9em;
 }
 .work, .education,.info p,.lists,.lists2,ul.list2,ul.media_sec  {
-  border-left: 6px solid #c8c8d6;
+  border-left: 5px solid #c8c8d6;
 }
 .progressy1, .progressy2, .progressy3, .progressy4, .progressy6{
   margin: 4px 0 15px 0;
