@@ -165,6 +165,42 @@ h3 {
 	font-size: 0.85em;
 }
 
+#formfield td{
+     padding-right: 30px;
+		 padding-bottom: 30px;
+		 font-size: 0.8em;
+		 font-family: "Futura";
+		 text-transform: uppercase;
+		 letter-spacing: 0.1em;
+		 font-weight: lighter;
+}
+
+#submitfield{
+	margin-top: 10px;
+	padding: 1.2em 3em 1.2em 3em;
+	border: 1px solid #ccc;
+	font-size: 0.8em;
+	font-family: "Futura";
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	background-color: #45454d;
+	color: #fff;
+	border-radius:0px;
+}
+
+#submitfield:hover{
+	background-color: #ccc;
+
+}
+
+.txtbox {
+	background-color: #fafafa;
+	border: 1px solid #ccc;
+	padding: 1em;
+	font-family: "Helvetica";
+	text-align: center;
+	width: 50em;
+}
 .city{
 	width:19%;
 }
