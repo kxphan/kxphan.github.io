@@ -31,9 +31,26 @@
          </div>
       </div>
       <!---->
+
+
       <!---728x90--->
       <div id="nonfictiontitle" class="content">
-         <div class="container">
+				<div class="container">
+					 <h3>The Process</h3>
+					 <br>
+				</div>
+
+				<div class="container" id="processtext">
+					I started Books with Boba in order to keep myself from hoarding all of the books I read, but also to promote literature from Asian American and Asian writers both within and beyond mainstream recognition. All of these books are available for lending, unless listed otherwise. Though I fully support public libraries, being able to hand off some of my favorite books to my friends is something I already do -- I figured I should formalize the process regardless!<br><br>
+
+					If you're interested in <b>borrowing a book</b>, take a look at the books listed below and find one that piques your interest. Then, go to the <a href="#formfield">bottom of the page</a> and fill out the book request form. If the book is available, I'll send it your way.<br><br>
+
+					Take as long as you'd like with the book (chances are, if I really like it I will most likely get a personal copy). When you're done, either send it to me or pass it on to another person! Knowledge and representation are both extremely powerful. Happy reading!
+
+				</div>
+
+
+				 <div class="container">
             <h3>Nonfiction</h3>
             <br>
          </div>
@@ -41,21 +58,21 @@
             <div class="col-md-4 sweet">
                <div class="col-md-12 sinfo">
                   <img src="http://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781476739403/the-making-of-asian-america-9781476739403_hr.jpg" />
-                  <h4><i>The Making of Asian America</i> by Erica Lee</h4>
+                  <br><br><i>The Making of Asian America</i><br>by Erika Lee
                </div>
             </div>
 
 						<div class="col-md-4 sweet">
                <div class="col-md-12 sinfo">
                   <img src="http://vietnguyen.info/wp-content/uploads/2013/08/Nothing-Ever-Dies-cover.jpg" />
-                  <h4><i>Nothing Ever Dies</i> by Viet Thanh Nguyen</h4>
+                  <br><br><i>Nothing Ever Dies</i><br>by Viet Thanh Nguyen
                </div>
             </div>
 
 						<div class="col-md-4 sweet">
                <div class="col-md-12 sinfo">
                   <img src="https://images.penguinrandomhouse.com/cover/9780399591013" />
-                  <h4><i>Reset</i> by Ellen Pao</h4>
+                  <br><br><i>Reset</i><br>by Ellen Pao
                </div>
             </div>
 
@@ -87,15 +104,19 @@
 				<div id="formfield" class="container">
 					<table>
 						<tr>
-<form action="mailto:katherinexphan@gmail.com" method="post" enctype="text/plain">
+<form action="submit_student_form.php" method="post" enctype="text/plain">
 <td>Name</td>
-<td><input type="text" name="name" class="txtbox"></td></tr>
+<td><input type="text" name="name" class="txtbox" placeholder="e.g. Kat Phan" required></td></tr>
+<tr>
+	<td>Email</td>
+	<td><input type="email" name="email" class="txtbox" placeholder="e.g. katherinexphan@gmail.com" required></td>
+</tr>
 <tr><td>Mailing Address</td>
-<td><input type="text" name="mail" class="txtbox"></td></tr>
+<td><input type="text" name="address" class="txtbox" placeholder="e.g. 531 Lasuen Mall, Stanford, CA, 94309" requird></td></tr>
 <tr><td>Book<br>(Title and Author)</td>
-<td><input type="text" name="comment" class="txtbox"></td></tr>
+<td><input type="text" name="book" class="txtbox" placeholder="e.g. The Making of Asian America by Erika Lee" required></td></tr>
 </table>
-<input type="submit" value="request" id="submitfield">
+<button type="submit">Submit</button>
 </form>
 </div>
 

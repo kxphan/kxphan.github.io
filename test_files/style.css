@@ -12,6 +12,7 @@ html, body{
 	font-family: 'Helvetica';
 	font-size: 100%;
 	background: #ffffff;
+	font-weight: lighter;
 }
 body a{
 	transition:0.5s all;
@@ -165,6 +166,11 @@ h3 {
 	font-size: 0.85em;
 }
 
+#processtext {
+	font-size: 0.9em;
+	font-weight: lighter;
+	margin-bottom: 2em;
+}
 #formfield td{
      padding-right: 30px;
 		 padding-bottom: 30px;
@@ -200,6 +206,7 @@ h3 {
 	font-family: "Helvetica";
 	text-align: center;
 	width: 50em;
+	color: #999;
 }
 .city{
 	width:19%;
