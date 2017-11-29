@@ -3,10 +3,10 @@ if(isset($_POST['email'])) {
     $email_to = "katherinexphan@gmail.com";
     $email_subject = "Book Request";
 
-    $name = $_POST['name']; // required
-    $email_from = $_POST['email']; // required
-    $address = $_POST['address']; // required
-    $book = $_POST['book']; // required
+    echo $name = $_POST['name']; // required
+    echo $email_from = $_POST['email']; // required
+    echo $address = $_POST['address']; // required
+    echo $book = $_POST['book']; // required
 
     function clean_string($string) {
     $bad = array("content-type","bcc:","to:","cc:","href");
