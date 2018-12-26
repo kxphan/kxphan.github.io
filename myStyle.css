@@ -1,0 +1,62 @@
+body
+{
+  padding: 30px;
+  background-color: #F1F7F7;
+  font-family: 'Muli', sans-serif;
+  font-size: 1em;
+}
+
+a {
+  text-decoration: 1px solid #777;
+  color: #000;
+}
+
+a:hover {
+  color: #333;
+  background-color: #EEE;
+}
+h1 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 2.5em;
+  font-stretch: expanded;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+}
+.navigation {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 1em;
+  margin: 10px auto;
+  max-width: 700px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: black;
+  text-align: center;
+  padding: 2px;
+}
+.navigation a{
+  text-decoration: none;
+}
+.navigation a:hover {
+  border-bottom: 2px solid #777; /* or whatever colour you'd prefer */
+  background-color: #EEE;
+}
+.nav-specific {
+  display: inline-block;
+  margin: 0px 15px 10px 15px;
+}
+.center-div
+{
+  margin: 0px auto;
+  padding: 50px 50px 50px 50px;
+  width: 50%;
+  max-width: 600px;
+  background-color: #Fff;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: black;
+  overflow:auto;
+}
