@@ -2,8 +2,10 @@ body
 {
   padding: 30px;
   background-color: #F1F7F7;
-  font-family: 'Muli', sans-serif;
-  font-size: 1em;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  font-stretch: ultra-expanded;
 }
 
 a {
@@ -16,26 +18,23 @@ a:hover {
   background-color: #EEE;
 }
 h1 {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 2.5em;
-  font-stretch: expanded;
-  text-align: center;
+  font-family: 'Tienne';
+  font-size: 2em;
+  font-stretch: ultra-expanded;
+  display: inline-block;
 }
 
 h2 {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Libre Baskerville', monospace;
   font-weight: bold;
 }
 .navigation {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Libre Baskerville', monospace;
   font-size: 1em;
   margin: 10px auto;
   max-width: 700px;
   border-radius: 3px;
   border-width: 1px;
-  border-color: black;
-  text-align: center;
-  padding: 2px;
 }
 .navigation a{
   text-decoration: none;
@@ -48,15 +47,25 @@ h2 {
   display: inline-block;
   margin: 0px 15px 10px 15px;
 }
-.center-div
-{
-  margin: 0px auto;
-  padding: 50px 50px 50px 50px;
-  width: 50%;
-  max-width: 600px;
-  background-color: #Fff;
-  border-radius: 3px;
-  border-width: 1px;
-  border-color: black;
-  overflow:auto;
+
+#parent {
+  margin: 0 auto;
+  display: flex;
+  width: 50%
+}
+#narrow {
+  width: 200px;
+  padding: 10px;
+  /* Just so it's visible */
+}
+#wide {
+  flex: 1;
+  /* Grow to rest of container */
+  /* Just so it's visible */
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
 }
